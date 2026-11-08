@@ -1,0 +1,13 @@
+negatives,split,scorer,AUROC,AUPRC
+random,pair,"model, real expression",0.909,0.744
+random,pair,"model, shuffled expression",0.676,0.469
+random,pair,|correlation| (no training),0.878,0.733
+random,tf,"model, real expression",0.908,0.751
+random,tf,"model, shuffled expression",0.561,0.323
+random,tf,|correlation| (no training),0.878,0.733
+tf_matched,pair,"model, real expression",0.831,0.654
+tf_matched,pair,"model, shuffled expression",0.458,0.26
+tf_matched,pair,|correlation| (no training),0.802,0.619
+tf_matched,tf,"model, real expression",0.827,0.636
+tf_matched,tf,"model, shuffled expression",0.488,0.281
+tf_matched,tf,|correlation| (no training),0.802,0.619
